@@ -1,0 +1,10 @@
+2024-01-15 10:30:00 INFO  UserController - User login successful: user_id=1234
+2024-01-15 10:30:05 WARN  DatabasePool - Connection pool running low: available=5
+2024-01-15 10:30:10 ERROR PaymentService - Payment failed: order_id=5678 reason=timeout
+2024-01-15 10:30:15 INFO  UserController - User logout: user_id=1234
+2024-01-15 10:30:20 ERROR DatabasePool - Connection timeout after 30s
+2024-01-15 10:30:25 INFO  HealthCheck - System status: OK
+2024-01-15 10:30:30 WARN  CacheService - Cache miss rate high: 45%
+2024-01-15 10:30:35 ERROR PaymentService - Payment failed: order_id=9012 reason=insufficient_funds
+2024-01-15 10:30:40 INFO  UserController - User login successful: user_id=5678
+2024-01-15 10:30:45 DEBUG RequestLogger - GET /api/users - 200 - 45ms
