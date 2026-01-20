@@ -1,15 +1,13 @@
 # Logstash
 
-A log is a direct product of a tree and represents an important transition between a living organism and a useful raw material. A tree, while alive, plays a vital role in natural ecosystems by absorbing carbon dioxide, producing oxygen, stabilizing soil, and providing habitats for numerous species. When a tree is cut down, its trunk is processed into a log, marking the point where biological life ends and human utilization begins.
+Käivita kõik konteinerid:
+#docker compose up -d
 
-From a biological perspective, a tree is a complex living system consisting of roots, a trunk, branches, and leaves. The trunk is the central structural element of the tree, responsible for transporting water and nutrients between the roots and the leaves. Once the tree is felled, the trunk is typically cut into sections known as logs. These logs preserve much of the tree’s internal structure, including growth rings, which provide valuable information about the tree’s age and the environmental conditions during its lifetime.
+Kontrolli, et konteinerid töötavad:
+#docker compose ps
 
-A log retains many of the physical properties of the original tree. The density, strength, moisture content, and grain pattern of a log depend on the tree species and growing conditions. For example, logs from hardwood trees such as oak or beech are generally denser and stronger than logs from softwood trees like pine or spruce. These characteristics determine how the log can be used, whether for construction, furniture manufacturing, paper production, or energy generation.
+Ava brauseris:
+http://<masina-ip>:5601
 
-In addition to its material value, a log also holds ecological significance. Even after a tree is cut, logs left in forests contribute to biodiversity by serving as habitats for insects, fungi, and microorganisms. Decaying logs return nutrients to the soil, supporting new plant growth and maintaining the natural balance of forest ecosystems. In this sense, a log continues to play a role in nature long after the tree’s life has ended.
-
-From a cultural and historical standpoint, logs have been essential to human development. Early civilizations relied on logs for building shelters, boats, tools, and fires for warmth and cooking. Log houses and log cabins remain symbols of traditional architecture in many regions, highlighting the long-standing relationship between humans and trees. The simplicity and durability of logs made them one of the first construction materials used by humans.
-
-In modern society, logs are carefully managed through forestry practices to ensure sustainability. Responsible logging aims to balance the demand for logs with the need to preserve forests for future generations. This includes replanting trees, protecting wildlife habitats, and minimizing environmental impact during harvesting.
-
-In conclusion, a log is much more than just a cut piece of wood. It represents the transformation of a tree from a living organism into a resource that supports human needs, while still maintaining ecological and historical importance. Understanding the connection between a tree and a log helps highlight the value of forests and the necessity of sustainable resource management.
+Kui labor on lõpetatud:
+docker compose down -v
